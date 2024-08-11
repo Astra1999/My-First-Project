@@ -1,0 +1,280 @@
+*{
+    text-decoration: none; 
+    margin: 0px;
+    padding:0px ;
+ }
+ .navbar{
+     background-color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .navdiv{
+     gap: 18rem;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .ul{
+     padding: 0px;
+     margin: 0px;
+ }
+ li{
+     list-style: none;
+     display: inline-block;
+     padding: 17px;
+ }
+ .logo img{
+     height: 50px;
+     width: 50px;
+     border: solid gray;
+     border-radius: 50%;}
+ a{
+     color: white;    
+ }
+ li:hover{
+     border-top: solid grey;
+ }
+ .bc{
+   justify-content: center;
+ }
+ .background{
+    height: 600px;
+    background-image: url(b.jpg);
+    background-size: cover;
+    background-repeat: round;
+    align-content: center;
+    justify-content: center;
+ }
+ .text{
+    text-align: center;
+    color: mintcream;
+ }
+ button{
+    padding: 12px;
+    border: none;
+    background-color: steelblue;
+    border-radius: 10px 0px;
+    margin-top: 40px;
+    color: unset;
+ }
+ button:hover{
+    padding: 12px;
+    border: none;
+    background-color: rgba(6, 68, 119, 0.89);
+    border-radius: 0px 10px;
+    margin-top: 40px;
+    color: unset;
+ }
+ .container{
+    background-color: lightslategrey;
+    display: flex;
+    align-items:center ;
+    height : 15.4rem;
+    justify-content: center;
+ }
+ .profile_select_effect {
+    
+    height : 65px;
+    width : 65px;
+    border-radius: 50%;
+    padding : 0.5rem;
+ }
+ .profile_select_effect img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+ } 
+ .profile_select_effect:hover .item {
+    display: block;
+ }
+
+ .item  {
+    padding : 0;
+    display: none;
+    background-color : white;
+    color : black;
+    text-align:center;
+    
+    box-shadow: rgba(245, 82, 82, 0.92) 0px 3px 8px;
+    width: 7rem;;
+ }
+ .item ul li { 
+    list-style-type : none;
+    margin :0;
+ }
+ .item ul {
+    margin:0;
+ }
+ .item li {
+    display: block;
+ }
+
+ .item li:hover { 
+    border:none;
+    background-color : black;
+    color : white;
+    border-bottom : 3px solid grey;
+ }
+ 
+.atag{
+    display: flex;
+    justify-content: center;
+    gap : 5rem;
+    padding : 3rem;
+  
+}
+
+.glance{
+    padding : 0px 1rem;
+    width : 15rem;
+    word-wrap: break-word;
+}
+.glance h1 {
+    display: inline;
+    
+}
+.GC{
+    display:flex;
+    justify-content: center;
+    padding : 0px 1.5rem;
+    gap : 1rem;
+    overflow: none;
+}
+.icon{
+   margin-bottom: 7px;
+   height: 34px;
+   width: 33px;
+   border-radius: 50%;
+   background-image: url(A.png);
+   background-size: cover;
+   background-repeat: round;
+   align-content: center;
+   justify-content: center;
+
+}
+
+.contant_container{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap : 14rem;
+    padding : 3rem;
+    align-items: center;
+}
+.content_image{
+   border: 3px solid;
+   height: 279px;
+   width: 500px;
+   background-image: url(b.jpg);
+   background-size: cover;
+   background-repeat: round;
+   align-content: center;
+   justify-content: center;
+}
+.AC p{
+
+   word-wrap: break-word;
+   width: 22rem;
+}
+.AFGC{
+   margin-right: 11rem;
+}
+.AFG{
+   display:flex;
+   width: 43rem;
+   justify-content: center;
+   padding : 1.5px 1.5rem;
+   gap : 1.5rem;
+   overflow: none;
+   padding-top: 1rem;
+}
+
+.AF{
+   padding : 1rem 1rem 2rem;
+   width : 15rem;
+   word-wrap: break-word;
+   box-shadow: 0px 10px 16px  gainsboro
+}
+
+.AH{
+   width: 8rem;
+}
+
+.AO_box{
+   background-color: steelblue;
+   padding: 5.5rem;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+.contact_Section{
+
+   height: 600px;
+   background-image: url(nice.jpg);
+   background-size: cover;
+   background-repeat: round;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.contact{
+
+   display: flex;
+   justify-content: center;
+   gap: 17.5rem;
+}
+
+.icon_C{
+
+   border: 3px solid white;
+   word-wrap: break-word;
+}
+
+.icon_C p{
+      
+   color: white;
+
+}
+
+.f_icon{
+   height: 34px;
+   width: 33px;
+   border-radius: 50%;
+   background-image: url(f.png);
+   background-size: cover;
+   background-repeat: round;
+   align-content: center;
+   justify-content: center;
+
+}
+
+#f{
+   display: flex;
+   gap: 0.4rem;
+   padding-top: 1.5rem;
+   padding-bottom: 5rem;
+}
+
+.box{
+   color: white;
+   text-align: end;
+   border: 3px solid;
+   height: 20rem;
+   width: 30rem;
+}
+
+.box_ul{
+   color: white;
+  
+   justify-content: end;
+}
